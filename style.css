@@ -1,0 +1,86 @@
+:root {
+  --chocolate: #f8e1d1;
+}
+
+body {
+  min-height: 3000px;
+}
+
+.jumbotron {
+  padding-top: 6rem;
+  background-color: #f8e1d1;
+}
+
+#projects {
+  background-color: #f8e1d1;
+}
+
+#about .container {
+  height: 50vh;
+}
+
+#about .container p {
+  font-size: 24px;
+  text-align: justify;
+}
+
+h2 {
+  font-size: 36px;
+}
+
+.kotak {
+  width: 100%;
+  padding: 0.15rem 0 0.15rem 0;
+  background-color: var(--chocolate);
+  border-radius: 10px;
+}
+
+.kotak ul {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0;
+  list-style: none;
+}
+
+/* .kotak ul li {
+  margin: 
+} */
+
+#contact .container {
+  height: 50vh;
+  padding-top: 10%;
+}
+
+#contact a {
+  text-decoration: none;
+  color: black;
+}
+
+#contact i {
+  font-size: 48px;
+}
+
+footer {
+  font-size: 24px;
+  background-color: #8f686b;
+  height: 100px;
+}
+
+footer a {
+  text-decoration: none;
+  color: #212529;
+}
+
+@media screen and (max-width: 500px) {
+  #about .container {
+    height: 100vh;
+  }
+
+  #contact i {
+    font-size: 36px;
+  }
+
+  footer {
+    font-size: 18px;
+  }
+}
